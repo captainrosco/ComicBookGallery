@@ -28,7 +28,7 @@ namespace ComicBookGallery.Controllers {
 
             var comicBook = _comicBookRepository.GetComicBook((int)id);
 
-            return View();
+            return View(comicBook);
         }
     }
 }
